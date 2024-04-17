@@ -1,0 +1,5 @@
+litestar[sqlalchemy]
+# -e ../sqladmin-litestar
+git+https://github.com/peterschutt/sqladmin-litestar.git@litestar-refactor#egg=sqladmin-litestar
+uvicorn
+uvloop
